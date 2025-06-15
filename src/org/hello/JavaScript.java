@@ -1,6 +1,12 @@
 package org.hello;
-public class JavaScript{
+import java.util.logging.Logger;
+ 
+public class HelloBITS {
+ 
+    private static final Logger logger = Logger.getLogger(HelloBITS.class.getName());
+ 
     public static void main(String[] args) {
-        System.err.println("Hello, World!");
+        logger.info("Hello BITS from SonarQube analysis!");
     }
 }
+ 
