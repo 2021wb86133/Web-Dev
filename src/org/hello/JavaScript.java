@@ -1,7 +1,7 @@
 package org.hello;
 import java.util.logging.Logger;
  
-public class HelloBITS {
+public class JavaScript {
  
     private static final Logger logger = Logger.getLogger(HelloBITS.class.getName());
  
